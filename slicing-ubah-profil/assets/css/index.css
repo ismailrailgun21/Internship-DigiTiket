@@ -25,9 +25,6 @@ input[type="password"]{
 button:focus{
     outline:none !important;
 }
-button:active{
-    background-color: #4E2E8A22;
-}
 figure{
     margin-bottom: 0 !important;
 }
