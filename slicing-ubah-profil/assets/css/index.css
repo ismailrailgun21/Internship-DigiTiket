@@ -39,7 +39,7 @@ figcaption{
 .nav-item{
     border-left: 1px solid rgba(0,0,0,0.1);
 }
-.nav-item:nth-child(5){
+.nav-item:nth-child(4){
     border-right: 1px solid rgba(0,0,0,0.1);
 }
 .nav-item:hover{
@@ -82,16 +82,17 @@ figcaption{
     color: white;
 }
 .btn-accent{
-    background-color: #e44a73;
+    background-color: #F05E86;
     color: white;
 }
 .profile{
-    margin-top:12rem;
+    margin-top: 12rem;
 }
 .profile .card iframe img{
     object-fit: cover;
 }
 .eye{
+    cursor: pointer;
     position: absolute;
     top: 0;
     right: 0;
@@ -110,7 +111,7 @@ figcaption{
     color: #4E2E8A;
 }
 .text-accent{
-    color: #e44a73;
+    color: #F05E86;
 }
 .text-secondary{
     font-size: 14px !important;
@@ -123,6 +124,9 @@ figcaption{
     .card{
         width: 100%;
         height: fit-content;
+    }
+    .profile{
+        margin-top: 7rem;
     }
     .nav-item{
         border: 0 !important;
